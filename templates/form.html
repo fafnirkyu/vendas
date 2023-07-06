@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game Prediction Form</title>
+</head>
+<body>
+    <h1>Game Prediction Form</h1>
+    <form action="/predict" method="post">
+        <!-- Add input fields for each column -->
+        <label for="Year_of_Release">Year of Release:</label>
+        <input type="number" name="Year_of_Release" required><br><br>
+        
+        <label for="Critic_Score">Critic Score:</label>
+        <input type="number" name="Critic_Score" required><br><br>
+        
+        <label for="Critic_Count">Critic Count:</label>
+        <input type="number" name="Critic_Count" required><br><br>
+        
+        <label for="User_Score">User Score:</label>
+        <input type="number" name="User_Score" required><br><br>
+        
+        <label for="User_Count">User Count:</label>
+        <input type="number" name="User_Count" required><br><br>
+        
+        <!-- Add checkbox inputs for the remaining columns -->
+        
+        <label for="Platform_3DS">Platform 3DS:</label>
+        <input type="hidden" name="Platform_3DS" value="0">
+        <input type="checkbox" name="Platform_3DS" value="1"><br><br>
+        
+        <label for="Platform_DC">Platform DC:</label>
+        <input type="checkbox" name="Platform_DC" value="1">
+        <input type="hidden" name="Platform_DC" value="0"><br><br>
+        
+        <label for="Platform_DS">Platform DS:</label>
+        <input type="checkbox" name="Platform_DS" value="1">
+        <input type="hidden" name="Platform_DS" value="0"><br><br>
+        
+        <!-- Add checkbox inputs for the remaining columns -->
+        
+        <label for="Platform_GBA">Platform GBA:</label>
+        <input type="checkbox" name="Platform_GBA" value="1">
+        <input type="hidden" name="Platform_GBA" value="0"><br><br>
+        
+        <label for="Platform_GC">Platform GC:</label>
+        <input type="checkbox" name="Platform_GC" value="1">
+        <input type="hidden" name="Platform_GC" value="0"><br><br>
+        
+        <label for="Platform_PC">Platform PC:</label>
+        <input type="checkbox" name="Platform_PC" value="1">
+        <input type="hidden" name="Platform_PC" value="0"><br><br>
+        
+        <!-- Add checkbox inputs for the remaining columns -->
+        
+        <label for="Platform_PS">Platform PS:</label>
+        <input type="checkbox" name="Platform_PS" value="1">
+        <input type="hidden" name="Platform_PS" value="0"><br><br>
+        
+        <label for="Platform_PS2">Platform PS2:</label>
+        <input type="checkbox" name="Platform_PS2" value="1">
+        <input type="hidden" name="Platform_PS2" value="0"><br><br>
+        
+        <label for="Platform_PS3">Platform PS3:</label>
+        <input type="checkbox" name="Platform_PS3" value="1">
+        <input type="hidden" name="Platform_PS3" value="0"><br><br>
+        
+        <!-- Add checkbox inputs for the remaining columns -->
+        
+        <label for="Platform_PS4">Platform PS4:</label>
+        <input type="checkbox" name="Platform_PS4" value="1">
+        <input type="hidden" name="Platform_PS4" value="0"><br><br>
+        
+        <label for="Platform_PSP">Platform PSP:</label>
+        <input type="checkbox" name="Platform_PSP" value="1">
+        <input type="hidden" name="Platform_PSP" value="0"><br><br>
+        
+        <label for="Platform_PSV">Platform PSV:</label>
+        <input type="checkbox" name="Platform_PSV" value="1">
+        <input type="hidden" name="Platform_PSV" value="0"><br><br>
+        
+        <!-- Add checkbox inputs for the remaining columns -->
+        
+        <label for="Platform_Wii">Platform Wii:</label>
+        <input type="checkbox" name="Platform_Wii" value="1">
+        <input type="hidden" name="Platform_Wii" value="0"><br><br>
+        
+        <label for="Platform_WiiU">Platform WiiU:</label>
+        <input type="checkbox" name="Platform_WiiU" value="1">
+        <input type="hidden" name="Platform_WiiU" value="0"><br><br>
+        
+        <label for="Platform_X360">Platform X360:</label>
+        <input type="checkbox" name="Platform_X360" value="1">
+        <input type="hidden" name="Platform_X360" value="0"><br><br>
+        
+        <!-- Add checkbox inputs for the remaining columns -->
+        
+        <label for="Platform_XB">Platform XB:</label>
+        <input type="checkbox" name="Platform_XB" value="1">
+        <input type="hidden" name="Platform_XB" value="0"><br><br>
+        
+        <label for="Platform_XOne">Platform XOne:</label>
+        <input type="checkbox" name="Platform_XOne" value="1">
+        <input type="hidden" name="Platform_XOne" value="0"><br><br>
+        
+        <label for="Genre_Action">Genre Action:</label>
+        <input type="checkbox" name="Genre_Action" value="1">
+        <input type="hidden" name="Genre_Action" value="0"><br><br>
+        
+        <!-- Add checkbox inputs for the remaining columns -->
+        
+        <label for="Genre_Adventure">Genre Adventure:</label>
+        <input type="checkbox" name="Genre_Adventure" value="1">
+        <input type="hidden" name="Genre_Adventure" value="0"><br><br>
+        
+        <label for="Genre_Fighting">Genre Fighting:</label>
+        <input type="checkbox" name="Genre_Fighting" value="1">
+        <input type="hidden" name="Genre_Fighting" value="0"><br><br>
+        
+        <!-- Add checkbox inputs for the remaining columns -->
+        
+        <label for="Genre_Misc">Genre Misc:</label>
+        <input type="checkbox" name="Genre_Misc" value="1">
+        <input type="hidden" name="Genre_Misc" value="0"><br><br>
+        
+        <label for="Genre_Platform">Genre Platform:</label>
+        <input type="checkbox" name="Genre_Platform" value="1">
+        <input type="hidden" name="Genre_Platform" value="0"><br><br>
+        
+        <label for="Genre_Puzzle">Genre Puzzle:</label>
+        <input type="checkbox" name="Genre_Puzzle" value="1">
+        <input type="hidden" name="Genre_Puzzle" value="0"><br><br>
+        
+        <!-- Add checkbox inputs for the remaining columns -->
+        
+        <label for="Genre_Racing">Genre Racing:</label>
+        <input type="checkbox" name="Genre_Racing" value="1">
+        <input type="hidden" name="Genre_Racing" value="0"><br><br>
+        
+        <!-- Add checkbox inputs for the remaining columns -->
+        
+        <label for="Genre_Shooter">Genre Shooter:</label>
+        <input type="checkbox" name="Genre_Shooter" value="1">
+        <input type="hidden" name="Genre_Shooter" value="0"><br><br>
+        
+        <label for="Genre_Simulation">Genre Simulation:</label>
+        <input type="checkbox" name="Genre_Simulation" value="1">
+        <input type="hidden" name="Genre_Simulation" value="0"><br><br>
+
+        <label for="Genre_Role_Playing">Genre Role-Playing:</label>
+        <input type="checkbox" name="Genre_Role_Playing" value="1">
+        <input type="hidden" name="Genre_Role_Playing" value="0"><br><br>
+        
+        <label for="Genre_Sports">Genre Sports:</label>
+        <input type="checkbox" name="Genre_Sports" value="1">
+        <input type="hidden" name="Genre_Sports" value="0"><br><br>
+        
+        <!-- Add checkbox inputs for the remaining columns -->
+        
+        <label for="Genre_Strategy">Genre Strategy:</label>
+        <input type="checkbox" name="Genre_Strategy" value="1">
+        <input type="hidden" name="Genre_Strategy" value="0"><br><br>
+        
+        <label for="Rating_E">Rating E:</label>
+        <input type="checkbox" name="Rating_E" value="1">
+        <input type="hidden" name="Rating_E" value="0"><br><br>
+        
+        <!-- Add checkbox inputs for the remaining columns -->
+        
+        <label for="Rating_E10plus">Rating E10+:</label>
+        <input type="checkbox" name="Rating_E10plus" value="1">
+        <input type="hidden" name="Rating_E10plus" value="0"><br><br>
+        
+        <label for="Rating_M">Rating M:</label>
+        <input type="checkbox" name="Rating_M" value="1">
+        <input type="hidden" name="Rating_M" value="0"><br><br>
+        
+        <!-- Add checkbox inputs for the remaining columns -->
+        
+        <label for="Rating_RP">Rating RP:</label>
+        <input type="checkbox" name="Rating_RP" value="1">
+        <input type="hidden" name="Rating_RP" value="0"><br><br>
+        
+        <label for="Rating_T">Rating T:</label>
+        <input type="checkbox" name="Rating_T" value="1">
+        <input type="hidden" name="Rating_T" value="0"><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
